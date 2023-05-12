@@ -33,7 +33,7 @@ jobs:
       with:
         username: Valianton
         reponame: Vue3.DraggableInput
-        token: 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
+        token: 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
   # Deployment job
   deploy:
     environment:
