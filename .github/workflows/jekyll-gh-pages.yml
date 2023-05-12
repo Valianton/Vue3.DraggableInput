@@ -40,7 +40,7 @@ jobs:
       - name: Vue to Github Pages
         uses: xRealNeon/VuePagesAction@1.0.1
         with:
-          username: Valianton
+          username: valianton@mail.ru
           reponame: Vue3.DraggableInput
           token: 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
   # Deployment job
