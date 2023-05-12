@@ -27,13 +27,13 @@ jobs:
     runs-on: ubuntu-latest
     name: Build Vue
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - id: Build-Vue
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
         username: Valianton
         reponame: Vue3.DraggableInput
-        token: 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
+        token: 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
   # Deployment job
   deploy:
     environment:
