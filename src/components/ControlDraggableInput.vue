@@ -194,7 +194,7 @@
 
   let beforeValue: number;
 
-  function onInput(event: InputEvent) {
+  function onInput(event: any) {
     const target = event.target as HTMLInputElement;
     const value = target.value;
 
