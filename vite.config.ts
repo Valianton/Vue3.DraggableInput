@@ -4,5 +4,5 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/Valianton/Vue3.DraggableInput/'
+  base: '/Vue3.DraggableInput/'
 })
